@@ -1,0 +1,108 @@
+.buttonWrapper{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .notification{
+        margin-top: 12px;
+    }
+
+    .badge{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin: 0 10px 0 0;
+        transition: color .25s ease-in-out;
+        padding: 10px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+
+    .icon{
+        display: inline-flex!important;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 5px;
+        cursor: pointer;
+        pointer-events: none;   
+        
+    }
+    .btnDowload {
+        font-family: Roboto, sans-serif!important;
+        background: #ffb54a;
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 10px 15px;
+        gap: 6px;
+        transition: background-color 0.3s, color 0.3s;
+    
+        &:hover {
+            cursor: pointer;
+            background-color: #df8e1c;
+            outline: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+    
+        .icon svg path {
+            fill: #fff; 
+            transition: fill 0.3s;
+        }
+    
+        &:hover span {
+            color: white;
+        }
+    }
+        
+
+    .btnInfo {
+        font-family: Roboto,sans-serif!important;
+        width: auto;
+        padding: 10px 15px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #00b5f1;
+        border: 1px solid #00b5f1;
+        display: inline-block;
+        transition: background-color 0.3s, color 0.3s;
+    
+        .text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+            color: #00b5f1;
+            transition: color 0.3s;
+        }
+    
+        .icon svg path {
+            fill: #00b5f1;
+            transition: fill 0.3s;
+        }
+    
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #00b5f1;
+            outline: 0;
+    
+            .text {
+                color: white;
+            }
+    
+            .icon svg path {
+                fill: white;
+            }   
+        }
+    }
+    
+    
+}
