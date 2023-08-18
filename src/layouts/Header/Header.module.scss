@@ -7,11 +7,11 @@
     display: flex;
     justify-content: flex-end;
     z-index: 100;
-    box-shadow: 0 10px 20px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.04), 0 0 1px rgba(0,0,0,.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.04), 0 0 1px rgba(0, 0, 0, 0.04);
     background-color: #fff;
-    font-family: Roboto,sans-serif!important;
+    font-family: Roboto, sans-serif !important;
 
-    .inner{
+    .inner {
         display: flex;
         align-items: center;
         width: 100%;
@@ -20,62 +20,62 @@
         margin: auto;
     }
 
-    .logo{
+    .logo {
         width: 150px;
         cursor: pointer;
     }
 
-    .menu{
+    .menu {
         width: 100%;
-        
-        .header{
+
+        .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 12px 0 12px 0px;
             position: relative;
             border-bottom: 1px solid #e4e4e4;
-            
-            .network{
+
+            .network {
                 display: flex;
                 align-items: center;
                 padding: 0px 12px;
                 position: relative;
-                
-                .text_a{
+
+                .text_a {
                     display: flex;
                     align-items: center;
                     gap: 4px;
                     color: #003553;
                     font-weight: 600;
-                    font-family: Roboto,sans-serif!important;
+                    font-family: Roboto, sans-serif !important;
                     padding: 12px;
 
-                    &:hover{
+                    &:hover {
                         cursor: pointer;
                         color: #47bfff;
                         outline: 0;
-                        transition: color .4s;
+                        transition: color 0.4s;
                     }
-                    .icon{
+                    .icon {
                         display: flex;
                         align-items: center;
                     }
-                    
                 }
-                
             }
-
-
         }
 
-        .body{
+        .body {
             display: flex;
             align-items: center;
             width: 100%;
             padding-left: 20px;
         }
-
+        a {
+            color: #003553;
+            font-weight: 600;
+            font-family: Roboto, sans-serif !important;
+            text-decoration: none;
+        }
     }
 }
-

@@ -1,0 +1,27 @@
+.support {
+    display: flex;
+    min-width: 180px;
+    align-items: center;
+    gap: 13px;
+}
+.titleSupport {
+    font-size: 16px;
+    color: #003553;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.text {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+}
