@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 510px;
+
+    .tag {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 48px;
+        color: #00b5f1;
+        margin-bottom: 20px;
+        font-family: Montserrat, sans-serif !important;
+
+        .line1 {
+            display: block;
+            font-family: Montserrat, sans-serif !important;
+        }
+    }
+
+    .desc {
+        margin-bottom: 40px;
+        font-family: Roboto, sans-serif !important;
+    }
+}

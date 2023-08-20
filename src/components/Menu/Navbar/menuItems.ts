@@ -44,7 +44,7 @@ const menuItems: MenuItem[] = [
             {
                 title: 'Đặt khám tại cơ sở',
                 icon: faCircleQuestion,
-                link: '/#',
+                link: '',
             },
             {
                 title: 'Đặt khám theo bác sỹ',
@@ -61,7 +61,22 @@ const menuItems: MenuItem[] = [
                 icon: faCoins,
                 link: '/#',
             },
+            {
+                title: 'Chăm sóc tại nhà',
+                icon: faCoins,
+                link: '/#',
+            },
+            {
+                title: 'Thanh toán viện phí',
+                icon: faCoins,
+                link: '/#',
+            },
         ],
+    },
+    {
+        title: 'Gói khám',
+        icon: faCoins,
+        link: '/#',
     },
     {
         title: 'Hưỡng dẫn',
@@ -111,6 +126,11 @@ const menuItems: MenuItem[] = [
                 link: '/#',
             },
         ],
+    },
+    {
+        title: 'Về chúng tôi',
+        icon: faCoins,
+        link: '/profile',
     },
 ];
 

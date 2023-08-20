@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './ButtonHeader.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBell, faMobile, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBell, faMobileScreen, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const cx = classNames.bind(styles);
 
-const ButtonHeader = () => {
+const ButtonHeader: React.FC = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     const handleLogin = () => {
@@ -38,8 +38,8 @@ const ButtonHeader = () => {
 
             <div className={cx('dowload')}>
                 <button className={cx('btnDowload')}>
-                    <FontAwesomeIcon icon={faMobile} />
-                    <span style={{ fontWeight: '700' }}>Tải ứng dụng</span>
+                    <FontAwesomeIcon icon={faMobileScreen} />
+                    <span style={{ fontWeight: '600' }}>Tải ứng dụng</span>
                 </button>
             </div>
 

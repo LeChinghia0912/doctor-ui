@@ -1,0 +1,27 @@
+.network {
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    position: relative;
+
+    .text_a {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: #003553;
+        font-weight: 600;
+        font-family: Roboto, sans-serif !important;
+        padding: 12px;
+
+        &:hover {
+            cursor: pointer;
+            color: #47bfff;
+            outline: 0;
+            transition: color 0.2s;
+        }
+        .icon {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

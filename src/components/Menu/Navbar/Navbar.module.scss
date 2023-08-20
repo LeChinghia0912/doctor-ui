@@ -1,20 +1,27 @@
 .navbar {
     width: 100%;
-    ul {
+    .menu {
         display: flex;
         align-items: center;
         justify-content: flex-end;
         list-style-type: none;
         font-size: 16px;
-    }
-    a {
-        &:hover {
-            cursor: pointer;
-            color: #47bfff;
-            outline: 0;
-            transition: color 0.3s;
+        padding: 0px 12px 0px 12px;
+        .link-prop {
+            font-size: 13px;
+            line-height: normal;
+            font-family: Roboto, sans-serif !important;
+        }
+        a {
+            &:hover {
+                cursor: pointer;
+                color: #47bfff;
+                outline: 0;
+                transition: color 0.2s;
+            }
         }
     }
+
     .item {
         position: relative;
         padding: 20px 12px;
@@ -22,6 +29,43 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        transition: all 0.21s ease-out;
+        transition: all 0.2s ease-out;
+        &:hover {
+            cursor: pointer;
+            color: #47bfff;
+            outline: 0;
+            border-bottom: 2px solid #00b5f1;
+            background: hsla(0, 0%, 100%, 0.9);
+        }
+
+        .submenu {
+            position: absolute;
+            opacity: 1;
+            pointer-events: all;
+            border-radius: 12px;
+            top: 55px;
+            left: 5px;
+            pointer-events: all;
+            opacity: 1;
+            transform: translateY(0);
+
+            ul {
+                list-style-type: none;
+                margin-top: 6px;
+                width: 160px;
+                border-radius: 8px;
+                box-shadow: 0 1px 7px 1px rgba(0, 0, 0, 0.05);
+                overflow: hidden;
+                -webkit-backdrop-filter: blur(15px) !important;
+                backdrop-filter: blur(15px) !important;
+                background-color: hsla(0, 0%, 100%, 0.8);
+                li {
+                    position: relative;
+                    width: 100%;
+                    padding: 12px;
+                    right: 30px;
+                }
+            }
+        }
     }
 }
