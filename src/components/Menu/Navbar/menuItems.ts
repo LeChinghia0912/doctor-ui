@@ -12,7 +12,7 @@ const menuItems: MenuItem[] = [
     {
         title: 'Cơ sở y tế',
         icon: faCaretDown,
-        link: '/#',
+        link: '/',
         submenus: [
             {
                 title: 'Bệnh viện công',

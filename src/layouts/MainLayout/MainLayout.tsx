@@ -7,7 +7,7 @@ import Main from '../../components/Main/Main';
 
 const cx = classNames.bind(styles);
 
-const MainLayout = () => {
+const MainLayout: React.FC = () => {
     return (
         <BrowserRouter>
             <header className={cx('wrapper')}>
