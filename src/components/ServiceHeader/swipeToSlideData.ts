@@ -2,7 +2,7 @@ import iconCalendar from '../../assets/images/calendar.png';
 import iconBacSi from '../../assets/images/bacsi.png';
 import iconTuvan from '../../assets/images/tuvan.png';
 import iconGiadinh from '../../assets/images/giadinh.png';
-import iconDKXN from '../../assets/images/dkxn.npg.webp';
+import iconDKXN from '../../assets/images/dkxn.png';
 import iconGoikham from '../../assets/images/goi_kham.png';
 import iconChamsoc from '../../assets/images/cham_soc.png';
 import iconThanhtoan from '../../assets/images/thanhtoanvp.png';

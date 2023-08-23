@@ -37,6 +37,7 @@
         padding: 13px 25px;
         gap: 6px;
         transition: background-color 0.3s, color 0.3s;
+        text-decoration: none;
 
         &:hover {
             cursor: pointer;
@@ -95,6 +96,51 @@
             .icon svg path {
                 fill: white;
             }
+        }
+    }
+}
+
+.btnMore {
+    font-family: Roboto, sans-serif !important;
+    display: inline-block;
+    position: relative;
+    bottom: 29px;
+    background: linear-gradient(84.16deg, #00b5f1 33.45%, #00e0ff 162.55%);
+    padding: 1px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+
+    .bg {
+        font-family: Roboto, sans-serif !important;
+        background: #fff;
+        border-radius: 30px;
+        transition: all 0.5s ease;
+
+        &:hover {
+            color: #fff;
+            background: linear-gradient(84.16deg, #00b5f1 33.45%, #00e0ff 162.55%);
+
+            .text {
+                color: #fff;
+                -webkit-background-clip: unset;
+                background-clip: unset;
+            }
+        }
+
+        .text {
+            color: #00b5f1;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            padding: 14px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            position: relative;
         }
     }
 }

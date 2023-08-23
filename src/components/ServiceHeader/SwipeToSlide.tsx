@@ -2,12 +2,8 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from './Slider.module.scss';
-import classNames from 'classnames/bind';
-import { slickItems, SlickItem } from './swipeToSlideData';
-import { Link } from 'react-router-dom';
-
-const cx = classNames.bind(styles);
+import { slickItems } from './swipeToSlideData';
+import SlickItemComponent from './SlickItem';
 
 const SwipeToSlide: React.FC = () => {
     const sliderRef = useRef<Slider>(null);
@@ -19,22 +15,15 @@ const SwipeToSlide: React.FC = () => {
         slidesToShow: 5,
         swipeToSlide: true,
         afterChange: function (index: number) {
-            console.log(`Slider Changed to: ${index + 1}, background: #222; color: #bada55`);
+            console.log(`${index + 1}`);
         },
     };
 
     return (
         <>
             <Slider {...settings} ref={sliderRef}>
-                {slickItems.map((item: SlickItem, index: number) => (
-                    <div style={{ width: '100%', display: 'inline-block' }} className="item" key={index}>
-                        <div className={cx('card')}>
-                            <Link style={{ textDecoration: 'none' }} to={item.link}>
-                                <span className={cx('icon')} style={{ backgroundImage: `url(${item.icon})` }}></span>
-                                <div className={cx('title')}>{item.title}</div>
-                            </Link>
-                        </div>
-                    </div>
+                {slickItems.map((item, index) => (
+                    <SlickItemComponent key={index} item={item} />
                 ))}
             </Slider>
         </>
