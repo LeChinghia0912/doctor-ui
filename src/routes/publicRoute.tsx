@@ -1,10 +1,10 @@
 import React from 'react';
-import { RouteObject } from 'react-router-dom';
+import { RouteObject, createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout/MainLayout';
 import Profile from '../pages/Profile/Profile';
 import { Home } from '../pages/Home';
 
-const publicRoutes: RouteObject[] = [
+const routes: RouteObject[] = [
     {
         path: '/',
         element: <MainLayout />,
@@ -15,4 +15,6 @@ const publicRoutes: RouteObject[] = [
     },
 ];
 
-export default publicRoutes;
+const router = createBrowserRouter(routes);
+
+export default router;

@@ -1,11 +1,12 @@
 import React from 'react';
-import MainLayout from './layouts/MainLayout/MainLayout';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/publicRoute';
 
 const App: React.FC = () => {
     return (
-        <>
-            <MainLayout />
-        </>
+        <React.StrictMode>
+            <RouterProvider router={router} />;
+        </React.StrictMode>
     );
 };
 

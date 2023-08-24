@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
                             onMouseEnter={() => handleMouseEnter(item)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <Link to={''}>
+                            <Link to={'/profile'}>
                                 {item.title} {item.submenus && <FontAwesomeIcon icon={faCaretDown} />}
                             </Link>
                             {hoveredItem === item && item.submenus && (

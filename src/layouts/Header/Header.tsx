@@ -5,6 +5,7 @@ import Logo from '../../components/Images/Logo';
 import Support from '../../components/Menu/Support/Support';
 import Navbar from '../../components/Menu/Navbar/Navbar';
 import MenuHeader from './MenuHeader';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -13,7 +14,9 @@ const Header: React.FC = () => {
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <div className={cx('logo')}>
-                    <Logo />
+                    <Link to={'/'}>
+                        <Logo />
+                    </Link>
                 </div>
 
                 <div className={cx('menu')}>
