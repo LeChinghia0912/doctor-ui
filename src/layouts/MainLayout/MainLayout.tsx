@@ -6,6 +6,7 @@ import styles from './MainLayout.module.scss';
 import Main from '../../components/Main/Main';
 import HomeContainer from '../HomeContainer/HeaderContainer/HomeContainer';
 import Statistic from '../Statistic/Statistic';
+import Hospital from '../HospitalDeploy/Hospital';
 
 const cx = classNames.bind(styles);
 
@@ -22,6 +23,8 @@ const MainLayout: React.FC = () => {
                 <HomeContainer />
 
                 <Statistic />
+
+                <Hospital />
             </div>
         </BrowserRouter>
     );

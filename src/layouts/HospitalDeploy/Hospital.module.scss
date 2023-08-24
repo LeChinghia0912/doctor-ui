@@ -1,0 +1,88 @@
+.hospitalDeploy {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: Roboto, sans-serif !important;
+    margin-top: 64px;
+
+    .header {
+        text-align: center;
+
+        .title {
+            font-weight: 700;
+            font-size: 39px;
+            line-height: 48px;
+            font-family: Montserrat, sans-serif !important;
+            color: #00b5f1;
+        }
+
+        .desc {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #858585;
+        }
+    }
+
+    .listHospital {
+        font-family: Roboto, sans-serif !important;
+        .styles_slider {
+            cursor: grab;
+            margin-top: 0;
+            position: relative;
+            right: 30px;
+
+            .slider_card {
+                padding: 29px 37px;
+                width: 404px;
+
+                .item {
+                    width: 100%;
+                    display: inline-block;
+
+                    .styles_card {
+                        width: 100%;
+                        text-align: center;
+
+                        .wrap {
+                            .image {
+                                border-radius: 16px;
+                                overflow: hidden;
+                                max-height: 208px;
+                                margin: 36px;
+                                img {
+                                    max-width: 100%;
+                                }
+
+                                &:hover {
+                                    transform: scale(1.1);
+                                }
+                            }
+
+                            .name {
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                width: 80%;
+                                background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+                                border-radius: 16px;
+                                margin-top: 20px;
+                                padding: 10px 20px; /* Thay đổi giá trị padding cho lề trái và lề phải */
+                                color: #fff;
+                                margin: 20px;
+                            }
+
+                            .address {
+                                margin-top: 8px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #858585;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
