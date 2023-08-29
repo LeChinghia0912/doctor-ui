@@ -3,6 +3,7 @@ import classNames from 'classnames/bind';
 import styles from './ButtonHeader.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell, faMobileScreen, faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -22,7 +23,7 @@ const ButtonHeader: React.FC = () => {
             <div className={cx('icon')}>
                 <FontAwesomeIcon icon={faUser} />
             </div>
-            <span>{isLoggedIn ? 'Lê Chí Nghĩa' : 'Đăng nhập'}</span>
+            <span>{isLoggedIn ? 'Đăng Nhập' : 'Lê Chí Nghĩa'}</span>
         </div>
     );
 
@@ -44,9 +45,11 @@ const ButtonHeader: React.FC = () => {
             </div>
 
             <div className={cx('info')}>
-                <button className={cx('btnInfo')} onClick={isLoggedIn ? handleLogout : handleLogin}>
-                    {renderUserInfo()}
-                </button>
+                <Link to={'/RegisterPage'}>
+                    <button className={cx('btnInfo')} onClick={isLoggedIn ? handleLogin : handleLogout}>
+                        {renderUserInfo()}
+                    </button>
+                </Link>
             </div>
         </div>
     );

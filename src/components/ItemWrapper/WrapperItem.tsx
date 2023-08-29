@@ -12,7 +12,7 @@ const WrapperItem: React.FC = () => {
             {dataWrapper.map((wrapper, index) => (
                 <div key={index} className={cx('item')}>
                     <div className={cx('card')}>
-                        <Link style={{ textDecoration: 'none' }} to={''}>
+                        <Link style={{ textDecoration: 'none' }} to={wrapper.link}>
                             <div className={cx('cardTitle')}>
                                 <span className={cx('card-img')}>
                                     <img alt="" src={wrapper.icon}></img>

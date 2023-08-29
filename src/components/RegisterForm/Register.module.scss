@@ -1,0 +1,38 @@
+.wrapper_header {
+    width: 500px;
+    max-width: 85%;
+    margin: 15px auto;
+
+    .icon_back {
+        margin-bottom: 10px;
+        color: #2698d6;
+        border: none;
+        cursor: pointer;
+    }
+
+    .container_logo {
+        text-align: center;
+    }
+}
+
+.wrapper_child {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px 28px;
+
+    .inner_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .text_center {
+        text-align: center !important;
+    }
+
+    .wrapper_input {
+        width: 100%;
+    }
+}

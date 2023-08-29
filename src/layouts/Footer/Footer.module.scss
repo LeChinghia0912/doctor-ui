@@ -1,0 +1,20 @@
+.index_footer {
+    background-color: #f1eff2;
+    border-top: 1px solid #eaeaea;
+
+    .container {
+        padding-top: 32px;
+        padding-bottom: 16px;
+        width: 100%;
+        margin: auto;
+        max-width: 1180px;
+    }
+
+    .footerCopyRight {
+        background: linear-gradient(82.98deg, #00b5f1 33.22%, #00e0ff 135.46%);
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 16px 0 14px;
+    }
+}

@@ -1,13 +1,22 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
 const MainLayout: React.FC = () => {
     return (
         <>
-            <Header />
-            <div style={{ marginTop: '140px' }}>
+            <header>
+                <Header />
+            </header>
+
+            <div>
                 <Outlet />
             </div>
+
+            <footer>
+                <Footer />
+            </footer>
         </>
     );
 };

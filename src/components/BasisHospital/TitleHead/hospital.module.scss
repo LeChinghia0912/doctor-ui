@@ -1,0 +1,27 @@
+.headerHospitals {
+    background-color: #fff;
+    font-family: Roboto, sans-serif !important;
+    .hosiptals {
+        box-sizing: border-box;
+
+        .styles_header {
+            text-align: center;
+
+            .title {
+                color: #00b5f1;
+                font-weight: 700;
+                font-size: 39px;
+                margin-bottom: 8px;
+                line-height: 48px;
+                font-family: Montserrat, sans-serif !important;
+            }
+
+            .description {
+                color: #003553;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+}

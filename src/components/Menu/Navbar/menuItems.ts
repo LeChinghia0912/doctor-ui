@@ -12,125 +12,125 @@ const menuItems: MenuItem[] = [
     {
         title: 'Cơ sở y tế',
         icon: faCaretDown,
-        link: '/',
+        link: './Cơ_Sở_Y_Tế',
         submenus: [
             {
                 title: 'Bệnh viện công',
                 icon: faCircleQuestion,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Bệnh viện tư',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Phòng khám',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Phòng mạch',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
         ],
     },
     {
         title: 'Dịch vụ y tế',
         icon: faCaretDown,
-        link: '/#',
+        link: '/',
         submenus: [
             {
                 title: 'Đặt khám tại cơ sở',
                 icon: faCircleQuestion,
-                link: '',
+                link: '/',
             },
             {
                 title: 'Đặt khám theo bác sỹ',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Tư vấn khám bệnh từ xa',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Đăng ký xét nghiệm',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Chăm sóc tại nhà',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Thanh toán viện phí',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
         ],
     },
     {
         title: 'Gói khám',
         icon: faCoins,
-        link: '/#',
+        link: '/',
     },
     {
         title: 'Hưỡng dẫn',
         icon: faCaretDown,
-        link: '/#',
+        link: '/',
         submenus: [
             {
                 title: 'Cài đặt ứng dụng',
                 icon: faCircleQuestion,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Đặt lịch khám',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Quy trìnhh hoàn phí',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Câu hỏi thường gặp',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
         ],
     },
     {
         title: 'Tin tức',
         icon: faCaretDown,
-        link: '/#',
+        link: '/',
         submenus: [
             {
                 title: 'Tin dịch vụ',
                 icon: faCircleQuestion,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Tin y tế',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
             {
                 title: 'Y học thưởng thức',
                 icon: faCoins,
-                link: '/#',
+                link: '/',
             },
         ],
     },
     {
         title: 'Về chúng tôi',
         icon: faCoins,
-        link: '/profile',
+        link: '/',
     },
 ];
 

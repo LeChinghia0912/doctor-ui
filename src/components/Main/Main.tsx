@@ -16,8 +16,8 @@ const Main: React.FC = () => {
                 <div style={imgBanner} className={cx('bannerHeader')}>
                     <div className={cx('container')}>
                         <div className={cx('content')}>
-                            <WrapperHeader />
                             <div className={cx('index_slider')}>
+                                <WrapperHeader />
                                 <SwipeToSlide />
                             </div>
                         </div>

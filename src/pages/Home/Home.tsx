@@ -5,20 +5,21 @@ import Statistic from '../../layouts/Statistic/Statistic';
 import Hospital from '../../layouts/HospitalDeploy/Hospital';
 import classNames from 'classnames';
 import styles from './Home.module.scss';
-
 const Home: React.FC = () => {
     const cx = classNames.bind(styles);
 
     return (
-        <div className={cx('body')}>
-            <Main />
+        <>
+            <div style={{ backgroundColor: '#e8f2f7' }} className={cx('body')}>
+                <Main />
 
-            <HomeContainer />
+                <HomeContainer />
 
-            <Statistic />
+                <Statistic />
 
-            <Hospital />
-        </div>
+                <Hospital />
+            </div>
+        </>
     );
 };
 

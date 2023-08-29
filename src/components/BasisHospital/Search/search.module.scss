@@ -1,0 +1,64 @@
+.body {
+    margin-top: 28px;
+    padding-bottom: 35px;
+
+    .form_search {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 14px;
+        font-variant: tabular-nums;
+        line-height: 1.5715;
+        list-style: none;
+        font-feature-settings: 'tnum', 'tnum';
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+        .form_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 603px;
+            height: 25px;
+            box-shadow: 4px 8px 30px rgba(150, 153, 158, 0.35);
+            overflow: hidden;
+            border-radius: 16px;
+            position: relative;
+            padding: 14px;
+
+            .item {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .inputItem {
+                width: 100%;
+                overflow: hidden;
+
+                .input {
+                    margin-left: 15px;
+                    height: 52px;
+                    padding: 0;
+                    border: none;
+                    outline: none;
+                }
+
+                .provinceSelect {
+                    border: none;
+                    overflow: hidden;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.btnAntd {
+    color: #11a2f3;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 10px 16px;
+    background: #ebf9fd;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+    &:hover {
+        border: 1px solid #00b5f1;
+    }
+}

@@ -13,7 +13,7 @@ const MenuHeader: React.FC = () => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
 
-            if (scrollPosition > 100) {
+            if (scrollPosition > 150) {
                 setIsMenuHidden(true);
             } else {
                 setIsMenuHidden(false);

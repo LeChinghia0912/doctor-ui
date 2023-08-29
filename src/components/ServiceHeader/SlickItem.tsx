@@ -11,12 +11,20 @@ interface SlickItemProps {
 }
 
 const SlickItemComponent: React.FC<SlickItemProps> = ({ item }) => (
-    <div style={{ width: '100%', display: 'inline-block' }} className="item">
+    <div className={cx('item')}>
         <div className={cx('card')}>
             <Link style={{ textDecoration: 'none' }} to={item.link}>
-                <span className={cx('icon')}>
-                    <div className={cx('img')} style={{ backgroundImage: `url(${item.icon})` }}></div>
-                </span>
+                <div className={cx('icon')}>
+                    <div
+                        className={cx('img')}
+                        style={{
+                            backgroundImage: `url(${item.icon})`,
+                            marginTop: '15px',
+                            width: '70px',
+                            height: '70px',
+                        }}
+                    ></div>
+                </div>
                 <div className={cx('title')}>{item.title}</div>
             </Link>
         </div>

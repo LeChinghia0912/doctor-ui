@@ -15,9 +15,8 @@ const WrapperHeader: React.FC = () => {
                     <span className={cx('line1')}>Cơ sở - Dịch vụ Y tế</span>
                 </div>
                 <div className={cx('desc')}>Đặt khám nhanh - Lấy số thứ tự trực tuyến - Tư vấn sức khỏe từ xa</div>
+                <BtnNow />
             </div>
-
-            <BtnNow />
         </>
     );
 };

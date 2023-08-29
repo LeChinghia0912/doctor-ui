@@ -11,22 +11,16 @@ const SwipeToSlide: React.FC = () => {
     const settings = {
         className: 'center',
         infinite: true,
-        centerPadding: '60px',
-        slidesToShow: 4,
+        slidesToShow: 6,
         swipeToSlide: true,
-        afterChange: function (index: number) {
-            console.log(`${index + 1}`);
-        },
     };
 
     return (
-        <>
-            <Slider {...settings} centerMode ref={sliderRef}>
-                {slickItems.map((item, index) => (
-                    <SlickItemComponent key={index} item={item} />
-                ))}
-            </Slider>
-        </>
+        <Slider {...settings} ref={sliderRef}>
+            {slickItems.map((item, index) => (
+                <SlickItemComponent key={index} item={item} />
+            ))}
+        </Slider>
     );
 };
 
