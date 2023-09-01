@@ -1,0 +1,28 @@
+.btnControl {
+    display: flex;
+    flex-direction: column-reverse;
+    width: -moz-min-content;
+    width: min-content;
+    gap: 12px;
+
+    .btnBooking {
+        cursor: pointer;
+        background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+        color: #fff;
+        border: none;
+        padding: 10px 16px;
+        width: 145px;
+        transition: all 0.3s ease;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: normal;
+
+        &:hover {
+            box-shadow: 0 4px 30px 0 rgba(116, 157, 206, 0.2);
+            -webkit-text-fill-color: #fff;
+            background: linear-gradient(83.63deg, #1ea0ff 33.34%, #00bfff 113.91%) !important;
+            transform: scale(1.05);
+        }
+    }
+}

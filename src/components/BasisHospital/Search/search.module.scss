@@ -29,6 +29,7 @@
             border-radius: 16px;
             position: relative;
             padding: 14px;
+            background-color: white;
 
             .item {
                 width: 100%;
@@ -44,13 +45,27 @@
             .inputItem {
                 width: 100%;
                 overflow: hidden;
+                display: flex;
+                .clearIcon {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    color: rgba(0, 0, 0, 0.5);
+                    transition: color 0.3s ease-in-out;
+                }
+
+                .clearIcon:hover {
+                    color: rgba(0, 0, 0, 0.8);
+                }
 
                 .input {
-                    margin-left: 15px;
+                    margin-left: 10px;
                     height: 52px;
                     padding: 0;
                     border: none;
                     outline: none;
+                    margin-right: 50px;
+                    width: auto;
                 }
 
                 .provinceSelect {

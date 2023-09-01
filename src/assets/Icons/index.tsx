@@ -7,6 +7,8 @@ const icon = {
     doctor: require('./doctor.svg'),
     access: require('./access.svg'),
     view: require('./view.svg'),
+    ios: require('./AppStore.svg'),
+    android: require('./GooglePlay.svg'),
 };
 
 export default icon;

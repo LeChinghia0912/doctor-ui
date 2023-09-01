@@ -1,0 +1,68 @@
+.details {
+    font-family: Roboto, sans-serif;
+    font-feature-settings: normal;
+
+    .card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 10px;
+        box-shadow: 0 4px 30px rgba(149, 179, 207, 0.4);
+        border-radius: 20px;
+        width: 92%;
+        min-height: 100px;
+        margin-bottom: 26px;
+        background: #fff;
+        border: 2px solid transparent;
+        transition: all 0.23s ease;
+
+        &:hover {
+            transition: box-shadow 0.15s ease;
+            border: 2px solid #00b5f1;
+        }
+
+        .DetailInfo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-grow: 1;
+
+            .cardImage {
+                min-width: 90px;
+                min-height: 90px;
+                display: flex;
+                align-items: center;
+            }
+
+            .cardBody {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-grow: 1;
+
+                .cardContent {
+                    width: 100%;
+
+                    .title {
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 29px;
+                        margin-bottom: 12px;
+                    }
+
+                    .contentItem {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 21px;
+                        color: #858585;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

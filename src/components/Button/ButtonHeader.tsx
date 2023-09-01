@@ -23,7 +23,8 @@ const ButtonHeader: React.FC = () => {
             <div className={cx('icon')}>
                 <FontAwesomeIcon icon={faUser} />
             </div>
-            <span>{isLoggedIn ? 'Đăng Nhập' : 'Lê Chí Nghĩa'}</span>
+            {/* <span>{isLoggedIn ? 'Đăng Nhập' : 'Lê Chí Nghĩa'}</span> */}
+            <span>Đăng Nhập</span>
         </div>
     );
 

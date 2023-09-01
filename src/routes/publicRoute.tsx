@@ -7,6 +7,7 @@ import { Support } from '../pages/Support';
 import HealthFacilities from '../pages/Health_Facilities/HealthFacilities';
 import RegisterPage from '../pages/RegisterPage/RegisterPage';
 import Login from '../pages/LoginPage/Login';
+import ServicePage from '../pages/Page_Service/ServicePage';
 
 const routes: RouteObject[] = [
     {
@@ -17,6 +18,7 @@ const routes: RouteObject[] = [
             { path: '/profile', element: <Profile /> },
             { path: '/support', element: <Support /> },
             { path: '/Cơ_Sở_Y_Tế', element: <HealthFacilities /> },
+            { path: '/Dịch_Vụ_Y_Tế', element: <ServicePage /> },
         ],
     },
     {

@@ -1,0 +1,49 @@
+// downloadApp
+.dowloadApp {
+    font-family: Roboto, sans-serif !important;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+    box-shadow: 0 4px 30px rgba(116, 157, 206, 0.2);
+    padding: 20px 5px;
+    margin-top: 26px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+
+    .title {
+        font-family: Roboto, sans-serif !important;
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .buttonWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        .ios,
+        .android {
+            box-sizing: border-box;
+            display: inline-block;
+            overflow: hidden;
+            width: initial;
+            height: initial;
+            background: none;
+            opacity: 1;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            max-width: 100%;
+            cursor: pointer;
+
+            &:hover {
+                transition: box-shadow 0.3s ease;
+                box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+}

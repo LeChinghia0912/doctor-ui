@@ -39,37 +39,37 @@ const menuItems: MenuItem[] = [
     {
         title: 'Dịch vụ y tế',
         icon: faCaretDown,
-        link: '/',
+        link: '/Dịch_Vụ_Y_Tế',
         submenus: [
             {
                 title: 'Đặt khám tại cơ sở',
                 icon: faCircleQuestion,
-                link: '/',
+                link: '/Dịch_Vụ_Y_Tế',
             },
             {
                 title: 'Đặt khám theo bác sỹ',
                 icon: faCoins,
-                link: '/',
+                link: '',
             },
             {
                 title: 'Tư vấn khám bệnh từ xa',
                 icon: faCoins,
-                link: '/',
+                link: '',
             },
             {
                 title: 'Đăng ký xét nghiệm',
                 icon: faCoins,
-                link: '/',
+                link: '',
             },
             {
                 title: 'Chăm sóc tại nhà',
                 icon: faCoins,
-                link: '/',
+                link: '',
             },
             {
                 title: 'Thanh toán viện phí',
                 icon: faCoins,
-                link: '/',
+                link: '',
             },
         ],
     },
