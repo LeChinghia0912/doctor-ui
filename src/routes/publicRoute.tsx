@@ -5,9 +5,10 @@ import Profile from '../pages/Profile/Profile';
 import { Home } from '../pages/Home';
 import { Support } from '../pages/Support';
 import HealthFacilities from '../pages/Health_Facilities/HealthFacilities';
-import RegisterPage from '../pages/RegisterPage/RegisterPage';
-import Login from '../pages/LoginPage/Login';
+import Login from '../pages/LoginPage/LoginPage';
 import ServicePage from '../pages/Page_Service/ServicePage';
+import DoctorLayout from '../layouts/HospitalDoctor/DoctorLayout';
+import BookingPage from '../pages/Medical_Booking/BookingPage';
 
 const routes: RouteObject[] = [
     {
@@ -19,12 +20,11 @@ const routes: RouteObject[] = [
             { path: '/support', element: <Support /> },
             { path: '/Cơ_Sở_Y_Tế', element: <HealthFacilities /> },
             { path: '/Dịch_Vụ_Y_Tế', element: <ServicePage /> },
+            { path: '/Đặt_Khám_Theo_Bác_Sĩ', element: <DoctorLayout /> },
+            { path: '/hinh-thuc-dat-kham', element: <BookingPage /> },
         ],
     },
-    {
-        path: '/RegisterPage',
-        children: [{ path: '/RegisterPage', element: <RegisterPage /> }],
-    },
+
     {
         path: '/login',
         children: [{ path: '/login', element: <Login /> }],

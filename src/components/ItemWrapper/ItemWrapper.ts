@@ -14,13 +14,13 @@ const wrapper: ItemWrapper[] = [
         icon: container1,
         title: 'Đặt khám nhanh',
         desc: 'Đặt khám nhanh, thanh toán và lấy số thứ tự trực tuyến tiếp kiệm thời gian công sức',
-        link: './support',
+        link: '/Dịch_Vụ_Y_Tế',
     },
     {
         icon: container2,
         title: 'Cơ sở y tế rộng khắp',
         desc: 'Mạng lưới bệnh viện, phòng khám, phòng mạch phủ khắp toàn quốc',
-        link: './support',
+        link: '/Cơ_Sở_Y_Tế',
     },
     {
         icon: container3,

@@ -1,17 +1,19 @@
 import React from 'react';
 import styles from './ButtonHeader.module.scss';
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
-const Button: React.FC = () => {
+
+interface ButtonProps {
+    onClick: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({ onClick }) => {
     return (
         <div style={{ width: '80%' }}>
-            <Link style={{ textDecoration: 'none' }} to={'/login'}>
-                <button className={cx('style')}>
-                    <div style={{ color: '#fff' }}>Tiếp tục</div>
-                </button>
-            </Link>
+            <button className={cx('style')} onClick={onClick}>
+                <div style={{ color: '#fff' }}>Tiếp tục</div>
+            </button>
         </div>
     );
 };

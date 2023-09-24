@@ -9,7 +9,7 @@ const BtnControl: React.FC = () => {
     return (
         <>
             <div className={cx('btnControl')}>
-                <Link to={''}>
+                <Link to={'/hinh-thuc-dat-kham'}>
                     <button className={cx('btnBooking')}>
                         <span>Đặt khám ngay</span>
                     </button>

@@ -17,29 +17,29 @@ const menuItems: MenuItem[] = [
             {
                 title: 'Bệnh viện công',
                 icon: faCircleQuestion,
-                link: '/',
+                link: '/Cơ_Sở_Y_Tế',
             },
             {
                 title: 'Bệnh viện tư',
                 icon: faCoins,
-                link: '/',
+                link: '/Cơ_Sở_Y_Tế',
             },
             {
                 title: 'Phòng khám',
                 icon: faCoins,
-                link: '/',
+                link: '/Cơ_Sở_Y_Tế',
             },
             {
                 title: 'Phòng mạch',
                 icon: faCoins,
-                link: '/',
+                link: '/Cơ_Sở_Y_Tế',
             },
         ],
     },
     {
         title: 'Dịch vụ y tế',
         icon: faCaretDown,
-        link: '/Dịch_Vụ_Y_Tế',
+        link: '/',
         submenus: [
             {
                 title: 'Đặt khám tại cơ sở',
@@ -49,7 +49,7 @@ const menuItems: MenuItem[] = [
             {
                 title: 'Đặt khám theo bác sỹ',
                 icon: faCoins,
-                link: '',
+                link: '/Đặt_Khám_Theo_Bác_Sĩ',
             },
             {
                 title: 'Tư vấn khám bệnh từ xa',

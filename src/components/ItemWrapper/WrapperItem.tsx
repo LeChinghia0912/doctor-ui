@@ -21,9 +21,9 @@ const WrapperItem: React.FC = () => {
                                 <div className={cx('title')}>{wrapper.title}</div>
                                 <div className={cx('desc')}>{wrapper.desc}</div>
                             </div>
-                        </Link>
 
-                        <BtnMore />
+                            <BtnMore />
+                        </Link>
                     </div>
                 </div>
             ))}

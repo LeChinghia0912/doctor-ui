@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+.colTitle {
+    width: min-content;
+    text-align: center;
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    .title {
+        font-family: Montserrat, sans-serif !important;
+        text-align: center;
+        color: #00b5f1;
+        background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 39px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+}
+
+.colBoxService {
+    width: fit-content;
+    margin-top: 20px;
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    .chooseFeatureList {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2px;
+        margin: 0 auto 1rem;
+        width: auto;
+
+        .chooseFeatureListItem {
+            padding: 0.5rem;
+            text-align: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: 600;
+
+            .card {
+                display: flex;
+                align-items: center;
+                transition: all 0.5s ease-in-out;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border-radius: 12px;
+                background: #fff;
+                padding: 17.5px 15px;
+                border: 1px solid transparent;
+                box-shadow: 4px 8px 30px 0 rgba(177, 196, 218, 0.35);
+
+                &:hover {
+                    color: #00b5f1;
+                    border-color: #00b5f1;
+                }
+
+                img {
+                    vertical-align: middle;
+                    border-style: none;
+                }
+
+                .name {
+                    margin-left: 40px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 450;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

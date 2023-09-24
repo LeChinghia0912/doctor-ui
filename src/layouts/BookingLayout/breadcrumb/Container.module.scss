@@ -1,7 +1,14 @@
-.containerPartner {
+.container {
     max-width: 1180px !important;
+    padding-right: 0;
+    padding-left: 0;
     margin: auto;
-    width: 100%;
+
+    a {
+        text-decoration: none;
+        color: #003553;
+        padding-right: 10px;
+    }
 
     ul {
         padding: 20px 0;
@@ -20,16 +27,6 @@
             font-size: 16px;
             font-weight: 600;
             margin-right: 20px;
-        }
-
-        li:last-child {
-            margin-right: 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: #003553;
-            padding-right: 10px;
         }
     }
 }

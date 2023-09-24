@@ -46,7 +46,7 @@ const ButtonHeader: React.FC = () => {
             </div>
 
             <div className={cx('info')}>
-                <Link to={'/RegisterPage'}>
+                <Link to={'/login'}>
                     <button className={cx('btnInfo')} onClick={isLoggedIn ? handleLogin : handleLogout}>
                         {renderUserInfo()}
                     </button>

@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './RegisterPage.module.scss';
+import styles from './LoginPage.module.scss';
 import classNames from 'classnames/bind';
-import RegisterForm from '../../components/RegisterForm/RegisterForm';
 import ImgRegister from '../../assets/images/LeftRegister.png';
+import LoginForm from '../../components/LoginForm/LoginForm';
 
 const cx = classNames.bind(styles);
 
@@ -18,13 +18,13 @@ const BackgroundImage: React.FC<{ style: React.CSSProperties }> = ({ style }) =>
     </div>
 );
 
-const RegisterPage: React.FC = () => {
+const LoginPage: React.FC = () => {
     return (
         <div className={cx('wrapper_template')}>
             <div className={cx('wrapper_content')}>
                 <div className={cx('row_full_screen')}>
                     <div className={cx('left')}>
-                        <RegisterForm />
+                        <LoginForm />
                     </div>
                     <div className={cx('right')}>
                         <BackgroundImage style={imgRegisterStyle} />
@@ -35,4 +35,4 @@ const RegisterPage: React.FC = () => {
     );
 };
 
-export default RegisterPage;
+export default LoginPage;

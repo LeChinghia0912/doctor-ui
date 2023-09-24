@@ -17,12 +17,12 @@ export const slickItems: SlickItem[] = [
     {
         title: 'Đặt khám tại cơ sở',
         icon: iconCalendar,
-        link: '/Cơ_Sở_Đặt_Khám',
+        link: '/Dịch_Vụ_Y_Tế',
     },
     {
         title: 'Đặt khám tại bác sĩ',
         icon: iconBacSi,
-        link: '/Đặt_Khám_Bác_Sỹ',
+        link: '/Đặt_Khám_Theo_Bác_Sĩ',
     },
     {
         title: 'Tư vấn khám bệnh từ xa',

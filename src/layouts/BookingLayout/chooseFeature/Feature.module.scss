@@ -1,0 +1,13 @@
+.contentBannerHome {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+
+    padding: 0;
+
+    .boxService {
+        display: flex;
+        align-content: flex-start;
+        flex-flow: row wrap;
+    }
+}
